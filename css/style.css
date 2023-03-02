@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +23,8 @@ ul li a {
   --fontSize-nav: 16px;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
+  --font-family:  'Epilogue', sans-serif;
+
 }
 
 .container {
@@ -45,6 +49,7 @@ nav {
   display: flex;
   gap: 3rem;
   align-items: center;
+  border: 2px solid hotpink;
 }
 .logo-menu-container .logo {
   font-size: 2.6rem;
@@ -63,7 +68,7 @@ nav {
   justify-content: center;
   width: 20%;
   font-weight: var(--font-weight-medium);
-  /* border: 2px solid red; */
+  border: 2px solid navy;
 }
 .profile #login {
   background-color: transparent;
@@ -91,3 +96,71 @@ nav {
   color: white;
 }
 /* css  for navigation end*/
+
+/* hero section  start */
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem;
+  border: 2px solid blue;
+}
+.left-section {
+  text-align: left;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30rem;
+  /* align-items: center; */
+  border: 2px solid orange;
+  padding: 2rem 4rem;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  border: 2px solid sienna;
+}
+.heading {
+  font-size: 4.6rem;
+  font-family: var(--font-family);
+}
+.content .paragraph {
+  font-size: var(--fontSize-paragraph);
+  color: var(--medium-gray);
+}
+.content .btn {
+  padding: 0.5rem 1.5rem;
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+  border-radius: 6px;
+  width: 20%;
+}
+.content .btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--almost-black);
+  color: var(--almost-black);
+}
+.img-client {
+  text-align: center;
+  border: 2px solid red;
+}
+.img-client img {
+  padding-right: 2rem;
+}
+.right-section {
+  width: 35%;
+  height: 30rem;
+  border: 2px solid olive;
+}
+.img-section img {
+  width: 350px;
+  padding: 0;
+  height: 30rem;
+  /* width: 20%; */
+}
+/* hero section  end */
