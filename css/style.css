@@ -41,7 +41,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0rem 2rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .logo-menu-container {
@@ -49,7 +49,7 @@ nav {
   display: flex;
   gap: 3rem;
   align-items: center;
-  border: 2px solid hotpink;
+  /* border: 2px solid hotpink; */
 }
 .logo-menu-container .logo {
   font-size: 2.6rem;
@@ -68,7 +68,7 @@ nav {
   justify-content: center;
   width: 20%;
   font-weight: var(--font-weight-medium);
-  border: 2px solid navy;
+  /* border: 2px solid navy; */
 }
 .profile #login {
   background-color: transparent;
@@ -105,7 +105,7 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 2rem 2rem;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .left-section {
   text-align: left;
@@ -115,7 +115,7 @@ nav {
   justify-content: space-between;
   height: 30rem;
   /* align-items: center; */
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding: 2rem 4rem;
 }
 .content {
@@ -123,7 +123,7 @@ nav {
   justify-content: space-between;
   flex-direction: column;
   gap: 2rem;
-  border: 2px solid sienna;
+  /* border: 2px solid sienna; */
 }
 .heading {
   font-size: 4.6rem;
@@ -147,7 +147,7 @@ nav {
 }
 .img-client {
   text-align: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .img-client img {
   padding-right: 2rem;
@@ -155,7 +155,7 @@ nav {
 .right-section {
   width: 35%;
   height: 30rem;
-  border: 2px solid olive;
+  /* border: 2px solid olive; */
 }
 .img-section img {
   width: 350px;
